@@ -1,0 +1,265 @@
+@media only screen and (min-width:1000px) {
+  div.logo{
+    top: -6px;
+    position: fixed;
+  }
+}
+/* Navigation */
+.nav-list{
+    background-color: grey;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    color: #ffff;
+    padding: 10px;   
+    border-radius: 8px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+.nav-list a{
+  padding: 2vw;
+}
+
+.nav-list a:link, a:visited{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav-list{
+    font-size: 1em;
+}
+}
+
+/* Index Banner Image */
+.landing{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 16px;
+}
+
+/* Main Header*/
+#placement-header{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.1em;
+    padding: 10px;
+    background-color: #F3AF70;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 8px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 90%;
+}
+
+  @media only screen and (max-width: 500px) {
+    #placement-header{
+      font-size: 1.5em;
+  }
+}
+
+#subheading{
+    text-align: center;
+    color: #8fcce1;
+    margin: 40px;
+}
+
+/* Aside */
+/* Blackboard Promo Desktop and Tablet View*/
+.information-container{
+  background-color: #ddeff1;
+  padding: 20px;
+  margin-left: -40px;
+  margin-right: -32px;
+}
+.info-blackboard{
+  border-style:solid;
+  border-color: #8fcce1;
+  border-width: 0.5px;
+  margin-left: 7.5vw;
+  margin-right: 7.5vw;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-bottom: 75px;
+  background-color: #ddeff1;
+  
+}
+
+.info-blackboard h1{
+  font-size: 2vw;
+}
+
+.btn-blackboard{
+  background-color: #89ca8a;
+  padding: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px
+}
+
+
+/* Blackboard Promo Mobile View*/
+@media only screen and (max-width: 500px) {
+  .info-blackboard{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 0px;
+  }
+  /* h1 */
+  .info-blackboard h1{
+    font-size: 1.2em;
+  }
+  /* h3 */
+  .info-blackboard h3{
+    font-size: 1em;
+  }
+  /* Paragraph */
+  .info-blackboard p{
+    width: 75%;
+  }
+  /* Button */
+  
+}
+
+/* Article - Meet the Team */
+/* Three columns side by side */
+.meet-team{
+  padding-top: 15px;
+}
+
+.meet-team header{
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.card img{
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container h2, .email{
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: black;
+  font-weight: bold;
+  background-color: #F3AF70;
+  border-radius: 10px;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* Second Article - Cards */
+div.gallery {
+    border: 1px solid #ccc;
+    border-radius: 22px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #ffffff;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+  }
+  
+  div.desc {
+    padding: 2px;
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
+  .responsive:last-child {
+    margin-bottom: 50px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+}
+  
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

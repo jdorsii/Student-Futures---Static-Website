@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student Life - Contact Us</title>
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+        <link rel="stylesheet" href="./styling/globals.css">
+        <link rel="stylesheet" href="./styling/contact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Icon Stylesheet from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <picture>
+                    <source media="(min-width:999px)"
+                    srcset="./images/uni-large.png" height="100" width="100">
+                    <source media="(min-width:649px)"
+                    srcset="./images/uni-small.png" height="100" >
+                    <img src="./images/uni-small.png"
+                    alt="Teesside Logo" style="width:auto;" height="85">
+                </picture>
+            </div>
+            <form class="login">
+                <input type="email" name="email" placeholder="Email" class="login-email">
+                <input type="password" name="password" placeholder="Password" class="login-password">
+                <button type="submit" class="btn-login">Login</button>
+            </form>
+        </header>
+        <nav class="nav-list">
+            <p><a href="index.html">Return Home</a></p>
+        </nav>
+        <main>
+            <header>
+                <h1 id="contact-header">Contact Us</h1>
+            </header>
+            <article>
+                <div class="container">
+                    <div style="text-align:center">
+                      <h3>Whether you are currently on, or have completed placement; your feedback matters to us!<br>
+                        Here you can also enquire about placements and receieve an informative email to explore further. </h3>
+                    </div>
+                    <div class="row">
+                      <div class="column">
+                        <img src="/images/campus.jpg" style="width:100%">
+                      </div>
+                      <div class="column">
+                        <form>
+                            <input type="radio" id="type" name="student_or_employer" value="Student">
+                            <label for="html">Student</label><br>
+                            <input type="radio" id="type" name="student_or_employer" value="Employer">
+                            <label for="css">Employer</label><br> 
+                            <div class="fname"> 
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            </div>
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Your subject">
+                            <label for="country">Gender</label>
+                            <select id="country" name="country">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+            </article>
+            <aside>
+                <head>
+                    <h1>Book our Events!</h1>
+                </head>
+                <div class="calendar">
+                    <div class="date">
+                        <div class="calendar-responsive">
+                            <a href="contact.html">
+                                <img src="./images/Calendar-1.png" alt="Calendar 13th-December">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="date">
+                        <div class="calendar-responsive">
+                            <a href="contact.html">
+                                <img src="./images/Calendar-2.png" alt="Calendar 15th-December">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="date">
+                        <div class="calendar-responsive">
+                            <a href="contact.html">
+                                <img src="./images/Calendar-3.png" alt="Calendar 7th-January">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="date">
+                        <div class="calendar-responsive">
+                            <a href="contact.html">
+                                <img src="./images/Calendar-4.png" alt="Calendar 7th-January">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+        </main>
+        <footer class="footer-house">
+            <br>
+            <p><b>Telephone</b>: 01642 218121,<br>
+                <b>Address</b>: Campus Heart, Southfield Rd, Middlesbrough TS1 3BX,
+            </p>
+            <div class="footer-copyright">
+                <picture class="center">
+                    <img src="./images/student_life_logo.png" alt="Student Life" class="center">
+                </picture>
+                <div class="contact-icons">
+                    <div class="icons">
+                        <a href="https://en-gb.facebook.com/TeessideUni/" target="blank" class="fa fa-facebook"></a>
+                        <a href="https://twitter.com/teessideuni?lang=en" target="blank" class="fa fa-twitter"></a>
+                        <a href="https://www.instagram.com/teessideuni/?hl=en" target="blank" class="fa fa-instagram"></a>
+                        <a href="https://www.youtube.com/channel/UCsDKd9q-BcNgyPsEAWADblw" target="blank" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+                <p>Student Futures<br>
+                <b>&copy; Teesside University 2022</b></p>
+            </div>
+        </footer>
+    </body>
+</html>
